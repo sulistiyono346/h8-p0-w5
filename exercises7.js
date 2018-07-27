@@ -1,5 +1,5 @@
 function hapusSimbol(str) {
-  return str.match(/[a-z/\d/]/g).join('');
+  return str.match(/[a-z/\d/]/gi).join("");
 }
 
 console.log(hapusSimbol('test%$4aa')); // test4aa
